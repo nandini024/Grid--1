@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: "Karma", sans-serif;
+        }
+        .header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+         
+            padding: 16px;
+            position: fixed;
+            background-color: azure;
+            top:0px;
+            left: 0px;
+
+
+        }
+        .container2>div{
+            transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+              padding: 10px 15px; 
+
+
+        }
+       
+
+        
+       
+        .header>div:hover{
+          background-color: grey;
+         
+          transform: scale(1.2); 
+            
+        }
+        .container2>div:hover{
+            background-color: gray;
+            padding: 5px;
+        }
+
+
+        .container1{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding-left:400px;
+            padding-right: 400px;
+            gap:20px 20px;
+            margin-bottom: 50px;
+            margin: 100px;
+         
+        }
+        .container2{
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(7,20px);
+            align-items: center;
+            justify-content: center;
+            gap: 20px; 
+            margin-bottom:50px;
+
+        }
+    .container3{
+       
+    margin-top: 70px; 
+    margin-bottom:100px;
+    padding-right: 400px;
+    padding-left: 400px;
+    text-align: center; 
+}
+    
+        .container3 img {
+    display: block;
+    margin: auto; 
+    width: 50%;
+    
+}
+.container4 {
+    display: grid;
+    grid-template-columns: 450px 250px auto;
+    
+    gap: 40px; 
+    padding: 40px 10%; 
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    align-items: start;
+}
+.child11, .child22, .child33 {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for better visibility */
+}
+
+.child11 p, .child22 p, .child33 p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.child22 img {
+    width: 60px; /* Ensures images in blog posts are aligned */
+    border-radius: 5px;
+}
+.child33{
+    margin-left: 150px;
+  
+}
+
+
+
+
+h3{
+    margin-bottom: 80px;
+}
+
+        
+        h6,h4,h3{
+            text-align: center;
+        }
+      
+       h3{
+        margin:10px 0px ;
+       }
+       .p21{
+        margin:15px 0px ;
+        line-height: 2;
+        
+       }
+       .line{
+        width: 80%;
+        justify-content: center;
+    }
+   
+   #ff{
+    width:50px;
+    height:auto;
+   }
+   .pf1{
+   margin-top: 100px;
+   }
+   
+
+   .nandhu{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+   }
+   .cutie{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+    justify-content: center;
+   }
+   span{
+    background-color: grey;
+    width: 70px;
+   }
+   .span1,.span2,.span3{
+    margin-top:20px;
+    margin-bottom:20px;
+   }
+   .container5{
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+   }
+    
+       
+        
+    
+   
+
+
+  
+    
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div><img src="./menu.jpg" alt="" width=40px"></div>
+        
+        <div style="width: 80px;">My Food</div>
+        <div style="width: 50px;">Mail</div>
+
+
+        
+
+    </div>
+    <div class="container1">
+        <div class="child1"><img src="./sandwich.jpg" alt="" width="100%">
+        <h3>The Perfect <br>Sandwich, A Real <br>
+             NYC Classic</h3>
+             <p class="p1">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        <div class="child2">
+            <img src="./steak.jpg" alt="" width="100%">
+            <h3>Let Me Tell You <br>About This Steak</h3>
+            <p class="p1">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+           </div>
+        <div class="child3">
+            <img src="./cherries.jpg" alt="" width="100%">
+           <h3>Cherries, <br> interrupted</h3>
+           <p class="p1">Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+        <br>What else?</p>
+
+           
+        </div>
+        <div class="child4">
+            <img src="./wine.jpg" alt="" width="100%">
+           <h3>Once Again, Robust <br>Wine and Vegetable Pasta</h3>
+           <p class="p1">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+        </div>
+        <div class="child5">
+            <img src="popsicle.jpg" alt="" width="100%">
+            <h3>All I Need Is a  <br>Popsicle</h3>
+            <p class="p1">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+       
+        </div>
+        <div class="child6">
+            <img src="./salmon.jpg" alt="" width="100%">
+            <h3>Salmon For Your <br> Skin
+            </h3>
+            <p class="p1">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+        
+        </div>
+        <div class="child7">
+            <img src="./sandwich (1).jpg" alt="" width="100%">
+           
+            <h3>The Perfect <br> Sandwich, A Real <br>Classic</h3>
+            <p class="p1">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+        </div>
+        <div class="child8">
+            <img src="./croissant.jpg" alt="" width="100%">
+
+            <h3>Le French</h3>
+            <p class="p1">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+            
+        </div>
+    </div>
+    <div class="container2">
+        <div><<</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>>></div>
+    </div>
+    <hr class="line">
+    <div class="container3">
+        <h3>About Me, The Food Man</h3>
+        <img src="./chef.jpg" alt="">
+        <h4 style="font-size: 20px;">I am Who I Am</h4>
+        <h6 style="font-size: 16px;"><i>With Passion For Real, Good Food</i></h6>
+        <p class="pp">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+    <hr class="line">
+    <div class="container4">
+        <div class="child11">
+            <h3>FOOTER</h3>
+            <P class="4p" style="margin:15px 0px;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</P>
+            <P>Powered by w3.css</P>
+        </div>
+        <div class="child22">
+            <h3 style="margin-bottom: 50px;">BLOG POSTS</h3> <br>
+            <div class="nandhu">
+                <img src="lorem.jpg" alt="" width="60px">
+                <div>
+                    lorerem <br>
+                    Sed mattis nunc
+                </div>
+            </div>
+            
+            <div class="cutie">
+                <img src="ipsum.jpg" alt="" width="60px">
+                <div>
+                    Ipsum <br>
+                    Praes tinci sed
+                </div>
+            </div>
+            
+            <!-- <p class="pf1">Lorembr <br>
+                Sed mattis nunc</p>
+                <img src="./lorem.jpg" alt="" id="ff">
+                
+                
+                <p class="pf2">Ipsum <br>
+                    Praes tinci sed</p>
+                    <img src="./ipsum.jpg" alt="" id="ff"> -->
+
+        </div>
+        <div class="child33">
+            <H3>POPULAR TAGS</H3>
+           <div class="span1"> <span>Travel</span>
+            <span>NetWork</span>
+            <span>Dinner</span>
+            <span>Salmon</span>
+            <span>France</span>
+            <span>Drinks</span>
+        </div>
+        <div class="span2">
+            <span>Ideas</span>
+            <span>Flavors</span>
+            <span>Cuisine</span>
+            <span>Chicken</span>
+            <span>Dressing</span>
+            <span>Fried</span>
+            <span>Fish</span>
+
+           
+        </div>
+        <div class="span3">
+            <span>Duck</span>
+        </div>
+
+
+        </div>
+    </div>
+    <div class="container5">
+        <p style="text-align: center; font-size: 20px; align-items: center;">Developed by Nandini</p>
+    </div>
+    
+</body>
+</html>
